@@ -63,12 +63,22 @@
                         <!-- to get an API token!-->
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Make life better!</button></div>
+                            <div class="row row-cols-1 input-group-newsletter">
+                                <div class="col">
+                                    <input class="form-control" id="email" type="email" placeholder="Enter your email" aria-label="Enter email address..." data-sb-validations="required,email" />
+                                </div>
+                                <div class="col-auto">
+                                    <button class="btn btn-dark mt-4 mb-5 dark" id="submitButton" type="submit">
+                                        Make life better!
+                                    </button>
+                                </div>
                             </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>
+                            <div class="invalid-feedback mt-2" data-sb-feedback="email:required">
+                                An email is required.
+                            </div>
+                            <div class="invalid-feedback mt-2" data-sb-feedback="email:email">
+                                Email is not valid.
+                            </div>
                             <!-- Submit success message-->
                             <!---->
                             <!-- This is what your users will see when the form-->
@@ -97,11 +107,15 @@
             <div class="container py-5 h-100 d-flex justify-content-center">
                 <div class="row row-cols-1 row-cols-md-2 g-4 align-items-center">
                     <div class="col">
-                        <h1 class="display-5 fw-bold lh-1 mb-3">My story</h1>
-                    <p class="lead">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <button type="button" class="btn btn-lg px-4 me-md-2" id="about-me-button">Read my story</button>
+                        <h1 class="display-5 fw-bold lh-1 mb-3">
+                            My story
+                        </h1>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a href="about.html" class="btn btn-primary">
+                            About me
+                        </a>
                     </div>
                     <div class="col">
                         <img src="css/images/ColbyPic.jpg" class="img-fluid" alt="Colby Kultgen" aria-label="Colbys picture">
